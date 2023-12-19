@@ -1,0 +1,511 @@
+
+
+Fri Dec 15 00:19:36 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.6.4-artix1-1 (#1 SMP PREEMPT_DYNAMIC Mon, 04 Dec 2023 21:43:36 +0000) x86_64
+Compiler: GCC 12.2
+ext2fs lib: 1.47.0, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.4
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       488397168 sectors
+/dev/sda: user_max   488397168 sectors
+/dev/sda: native_max 488397168 sectors
+/dev/sda: dco        488397168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 250 GB / 232 GiB - CHS 30401 255 63, sector size=512 - Samsung SSD 850 EVO 250GB, S/N:S2R6NX2J940232D, FW:EMT02B6Q
+
+Partition table type (auto): Intel
+Disk /dev/sda - 250 GB / 232 GiB - Samsung SSD 850 EVO 250GB
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+ 1 P Linux                    0  32 33   130 170 40    2097152
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1073 MB / 1024 MiB
+ 2 P Linux                  130 170 41  4046 234 28   62914560
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 32 GB / 30 GiB
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/1615, s_mnt_count=414/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Last mount time:    Wed Dec 13 21:18:44 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+block_group_nr 81
+
+recover_EXT2: "e2fsck -b 2654208 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=81/1615, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  Linux                 4046 234 29 30401  80 63  423383408
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+superblock 2654208, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+
+dir_partition inode=2
+ 2 P Linux                  130 170 41  4046 234 28   62914560
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 32 GB / 30 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 .
+       2 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 ..
+      11 drwx------     0      0     16384 16-Sep-2022 15:47 lost+found
+ 1310721 drwxr-xr-x     0      0      4096 16-Sep-2022 15:49 home
+  393217 drwxr-xr-x     0      0      4096 16-Sep-2022 15:49 boot
+ 1441793 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 var
+ 1179649 drwxr-xr-x     0      0      4096 16-Sep-2022 15:52 dev
+ 1048577 drwxr-xr-x     0      0      4096 16-Sep-2022 15:52 run
+ 1572865 drwxr-xr-x     0      0      4096 14-Dec-2023 22:34 etc
+ 1835009 drwxrwxrwt     0      0     65536 14-Dec-2023 23:58 tmp
+ 1703937 dr-xr-xr-x     0      0      4096 16-Sep-2022 15:52 sys
+  131073 dr-xr-xr-x     0      0      4096 16-Sep-2022 15:52 proc
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 usr
+      12 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 bin
+      13 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 lib
+      14 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 lib64
+  524289 drwxr-xr-x     0      0      4096  7-Dec-2021 16:23 mnt
+  655361 drwxr-xr-x     0      0      4096  2-Dec-2023 00:07 opt
+  786433 drwxr-x---     0      0      4096  4-Dec-2023 09:26 root
+      15 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 sbin
+ 1703938 drwxr-xr-x     0      0      4096 16-Sep-2022 15:53 srv
+      16 lrwxrwxrwx     0      0        14 16-Sep-2022 23:03 sv
+
+dir_partition inode=1310721
+ 2 P Linux                  130 170 41  4046 234 28   62914560
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 32 GB / 30 GiB
+Directory /home
+ 1310721 drwxr-xr-x     0      0      4096 16-Sep-2022 15:49 .
+       2 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 ..
+Directory /
+       2 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 .
+       2 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 ..
+      11 drwx------     0      0     16384 16-Sep-2022 15:47 lost+found
+ 1310721 drwxr-xr-x     0      0      4096 16-Sep-2022 15:49 home
+  393217 drwxr-xr-x     0      0      4096 16-Sep-2022 15:49 boot
+ 1441793 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 var
+ 1179649 drwxr-xr-x     0      0      4096 16-Sep-2022 15:52 dev
+ 1048577 drwxr-xr-x     0      0      4096 16-Sep-2022 15:52 run
+ 1572865 drwxr-xr-x     0      0      4096 14-Dec-2023 22:34 etc
+ 1835009 drwxrwxrwt     0      0     65536 14-Dec-2023 23:58 tmp
+ 1703937 dr-xr-xr-x     0      0      4096 16-Sep-2022 15:52 sys
+  131073 dr-xr-xr-x     0      0      4096 16-Sep-2022 15:52 proc
+  262145 drwxr-xr-x     0      0      4096 15-Oct-2023 13:34 usr
+      12 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 bin
+      13 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 lib
+      14 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 lib64
+  524289 drwxr-xr-x     0      0      4096  7-Dec-2021 16:23 mnt
+  655361 drwxr-xr-x     0      0      4096  2-Dec-2023 00:07 opt
+  786433 drwxr-x---     0      0      4096  4-Dec-2023 09:26 root
+      15 lrwxrwxrwx     0      0         7 18-Sep-2023 16:30 sbin
+ 1703938 drwxr-xr-x     0      0      4096 16-Sep-2022 15:53 srv
+      16 lrwxrwxrwx     0      0        14 16-Sep-2022 23:03 sv
+
+
+dir_partition inode=2
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 .
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 ..
+      11 drwx------     0      0     16384 16-Sep-2022 15:47 lost+found
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 user
+  524289 drwxr-xr-x  1000   1000      4096 25-Sep-2023 14:04 user.cashe
+
+dir_partition inode=8388609
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /user
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 .
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 ..
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 .config
+ 8495581 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 perl5
+ 5899952 drwx------  1000   1000      4096 27-Sep-2022 20:36 $
+ 8421767 drwx------  1000   1000      4096 16-Nov-2023 16:09 .ssh
+ 8396493 -rw-r--r--  1000   1000     44298 13-Dec-2023 12:05 larbs-dwm.pdf
+ 5799940 drwx------  1000   1000      4096 10-Aug-2023 15:07 .surf
+ 5772652 drwx------  1000   1000      4096  7-Jul-2023 01:08 .dbus
+ 8396823 drwxr-xr-x  1000   1000      4096 22-Sep-2023 21:44 .nuget
+ 8503671 drwxr-xr-x  1000   1000      4096  8-Nov-2023 20:39 Music
+ 8577187 drwxr-xr-x  1000   1000      4096 12-Dec-2023 19:01 Documents
+ 8405371 drwx------  1000   1000      4096 20-Nov-2023 20:04 .pki
+ 8413602 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:26 .rustup
+ 8397297 -rw-r--r--  1000   1000       464 16-Nov-2023 14:59 sshkey
+ 5767174 drwx------  1000   1000      4096 12-Dec-2023 00:03 .cache
+ 5771530 lrwxrwxrwx  1000   1000        20 18-Sep-2022 21:32 .xprofile
+ 8388616 drwxr-xr-x  1000   1000      4096 12-Nov-2023 13:17 .local
+ 8561033 drwxr-xr-x  1000   1000      4096 14-Nov-2023 12:49 dox
+ 6819389 -rw-r--r--  1000   1000 6685433856  2-Dec-2023 19:39 Win11_23H2_EnglishInternational_x64.iso
+ 8401246 -rw-r--r--  1000   1000      7000  6-Dec-2023 01:08 thinkfan.yaml
+ 8405383 drwxr-xr-x  1000   1000     28672 14-Dec-2023 18:46 Videos
+ 8405438 drwxr-xr-x  1000   1000      4096 25-Sep-2023 16:00 .java
+ 8388610 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 .librewolf
+ 5774631 drwxr-xr-x  1000   1000      4096 29-Jul-2023 20:30 .npm
+ 8405387 drwx------  1000   1000      4096 11-Nov-2023 14:33 Mail
+ 8413661 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 .cpan
+ 8405074 drwxr-xr-x  1000   1000      4096  8-Dec-2023 11:59 Pictures
+ 5771531 lrwxrwxrwx  1000   1000        21 18-Sep-2022 21:32 .zprofile
+ 8396817 drwxr-xr-x  1000   1000      4096 11-Nov-2023 12:45 .dotnet
+ 8577186 drwxr-xr-x  1000   1000      4096 11-Dec-2023 23:03 Downloads
+ 8400251 -rw-------  1000   1000        55  4-Dec-2023 09:27 .Xauthority
+ 8421800 drwx------  1000   1000      4096 21-Nov-2023 18:49 .abook
+ 5899954 drwxr-xr-x  1000   1000     12288  3-Dec-2023 10:22 Books
+ 8400026 -rw-r--r--  1000   1000        97 16-Nov-2023 14:59 sshkey.pub
+ 6819385 -rw-r--r--  1000   1000   4179016  2-Dec-2023 18:39 Windows11InstallationAssistant.exe
+ 8401267 -rw-r--r--  1000   1000         0  1-Dec-2023 16:19 file.org
+ 8479138 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:02 nsh
+
+dir_partition inode=8495581
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /user/perl5
+ 8495581 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 .
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 ..
+ 8503773 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:46 bin
+ 8601881 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 lib
+ 8601915 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:45 man
+Directory /user
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 .
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 ..
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 .config
+ 8495581 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 perl5
+ 5899952 drwx------  1000   1000      4096 27-Sep-2022 20:36 $
+ 8421767 drwx------  1000   1000      4096 16-Nov-2023 16:09 .ssh
+ 8396493 -rw-r--r--  1000   1000     44298 13-Dec-2023 12:05 larbs-dwm.pdf
+ 5799940 drwx------  1000   1000      4096 10-Aug-2023 15:07 .surf
+ 5772652 drwx------  1000   1000      4096  7-Jul-2023 01:08 .dbus
+ 8396823 drwxr-xr-x  1000   1000      4096 22-Sep-2023 21:44 .nuget
+ 8503671 drwxr-xr-x  1000   1000      4096  8-Nov-2023 20:39 Music
+ 8577187 drwxr-xr-x  1000   1000      4096 12-Dec-2023 19:01 Documents
+ 8405371 drwx------  1000   1000      4096 20-Nov-2023 20:04 .pki
+ 8413602 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:26 .rustup
+ 8397297 -rw-r--r--  1000   1000       464 16-Nov-2023 14:59 sshkey
+ 5767174 drwx------  1000   1000      4096 12-Dec-2023 00:03 .cache
+ 5771530 lrwxrwxrwx  1000   1000        20 18-Sep-2022 21:32 .xprofile
+ 8388616 drwxr-xr-x  1000   1000      4096 12-Nov-2023 13:17 .local
+ 8561033 drwxr-xr-x  1000   1000      4096 14-Nov-2023 12:49 dox
+ 6819389 -rw-r--r--  1000   1000 6685433856  2-Dec-2023 19:39 Win11_23H2_EnglishInternational_x64.iso
+ 8401246 -rw-r--r--  1000   1000      7000  6-Dec-2023 01:08 thinkfan.yaml
+ 8405383 drwxr-xr-x  1000   1000     28672 14-Dec-2023 18:46 Videos
+ 8405438 drwxr-xr-x  1000   1000      4096 25-Sep-2023 16:00 .java
+ 8388610 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 .librewolf
+ 5774631 drwxr-xr-x  1000   1000      4096 29-Jul-2023 20:30 .npm
+ 8405387 drwx------  1000   1000      4096 11-Nov-2023 14:33 Mail
+ 8413661 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 .cpan
+ 8405074 drwxr-xr-x  1000   1000      4096  8-Dec-2023 11:59 Pictures
+ 5771531 lrwxrwxrwx  1000   1000        21 18-Sep-2022 21:32 .zprofile
+ 8396817 drwxr-xr-x  1000   1000      4096 11-Nov-2023 12:45 .dotnet
+ 8577186 drwxr-xr-x  1000   1000      4096 11-Dec-2023 23:03 Downloads
+ 8400251 -rw-------  1000   1000        55  4-Dec-2023 09:27 .Xauthority
+ 8421800 drwx------  1000   1000      4096 21-Nov-2023 18:49 .abook
+ 5899954 drwxr-xr-x  1000   1000     12288  3-Dec-2023 10:22 Books
+ 8400026 -rw-r--r--  1000   1000        97 16-Nov-2023 14:59 sshkey.pub
+ 6819385 -rw-r--r--  1000   1000   4179016  2-Dec-2023 18:39 Windows11InstallationAssistant.exe
+ 8401267 -rw-r--r--  1000   1000         0  1-Dec-2023 16:19 file.org
+ 8479138 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:02 nsh
+
+dir_partition inode=5898478
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /user/.config
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 .
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 ..
+ 5898479 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:26 yay
+ 5899472 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 dunst
+ 5899474 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 fontconfig
+ 5899476 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 gtk-2.0
+ 5899478 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 gtk-3.0
+ 5899480 drwxr-xr-x  1000   1000      4096  9-Nov-2023 11:15 lf
+ 5899158 -rw-------  1000   1000       524 13-Nov-2023 12:27 mimeapps.list
+ 5899486 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 mpd
+ 5899488 drwxr-xr-x  1000   1000      4096  2-Aug-2023 09:40 mpv
+ 5899498 drwxr-xr-x  1000   1000      4096 22-Sep-2022 15:26 ncmpcpp
+ 5899501 drwxr-xr-x  1000   1000      4096 14-Dec-2023 19:54 newsboat
+ 5899380 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 nvim
+ 5899506 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 pinentry
+ 5899508 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 pipewire
+ 5899510 drwx------  1000   1000      4096 15-May-2023 17:21 pulse
+ 5899512 drwxr-xr-x  1000   1000      4096 13-Dec-2023 11:56 shell
+ 5899518 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 sxiv
+ 5899521 -rw-r--r--  1000   1000        25 18-Sep-2022 21:32 user-dirs.dirs
+ 5899522 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 wal
+ 5899527 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 wget
+ 5899529 drwxr-xr-x  1000   1000      4096 14-Dec-2023 19:23 x11
+ 5899533 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 zathura
+ 5899535 drwxr-xr-x  1000   1000      4096 22-Oct-2023 09:41 zsh
+ 6179598 drwxr-xr-x  1000   1000      4096  8-Sep-2023 21:11 spotifyd
+ 5899862 drwxr-xr-x  1000   1000      4096 19-Sep-2022 00:04 neofetch
+ 5899871 drwx------  1000   1000      4096 10-Jul-2023 12:37 htop
+ 5898684 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 mbsync
+ 5899943 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 msmtp
+ 5899945 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 mutt
+ 5899947 -rw-r--r--  1000   1000       260 23-Sep-2022 11:57 notmuch-config
+ 6127723 drwxr-xr-x  1000   1000      4096 19-Nov-2023 15:39 git
+ 5947473 drwxr-xr-x  1000   1000      4096  9-Jun-2023 11:16 vimb
+ 6817064 drwx------  1000   1000      4096 12-Dec-2023 14:04 dconf
+ 6889479 drwxr-xr-x  1000   1000      4096 12-Dec-2023 11:42 emacs
+ 5955661 drwx------  1000   1000      4096 20-Nov-2023 20:00 thorium
+ 5900015 drwx------  1000   1000      4096 15-Jul-2023 00:38 calibre
+ 5900020 drwxr-xr-x  1000   1000      4096 13-Apr-2023 19:51 KindleComicConverter
+ 5906496 -rw-r--r--  1000   1000       629  7-Jul-2023 21:33 QtProject.conf
+ 5900084 drwx------  1000   1000      4096 22-Oct-2022 08:37 calcurse
+ 5900181 drwx------  1000   1000      4096 11-Nov-2022 12:29 cef_user_data
+ 6306600 drwxr-xr-x  1000   1000      4096 14-Nov-2023 10:39 tmux
+ 6163706 drwx------  1000   1000      4096 28-May-2023 18:02 syncthing
+ 5939252 drwx------  1000   1000      4096  1-Jun-2023 00:34 nuclear
+ 6844036 drwxr-xr-x  1000   1000      4096 26-Nov-2023 15:45 spotify-tui
+ 5899841 -rw-r--r--  1000   1000       161 13-May-2023 22:57 archey3.cfg
+ 5947401 drwx------  1000   1000      4096  2-Jun-2023 23:42 torbrowser
+ 5904694 -rw-r--r--  1000   1000        22  6-Jul-2023 19:27 .#lk0x00005600c8818860.T430Laptop.21230
+ 7250355 drwx------  1000   1000      4096 20-Nov-2023 20:04 BraveSoftware
+ 5905336 -rw-------  1000   1000        32  6-Jul-2023 19:27 pubring.kbx
+ 5902542 -rw-------  1000   1000         0 11-Jul-2023 10:02 tmux.lock
+ 5931039 drwxr-x---  1000   1000      4096 25-Aug-2023 09:57 retroarch
+ 6078470 drwxr-xr-x  1000   1000      4096 18-Sep-2023 11:17 youtube-viewer
+ 7184430 drwxr-xr-x  1000   1000      4096 14-Dec-2023 20:09 zellij
+ 6425417 drwx------  1000   1000      4096 23-Oct-2023 20:59 fish
+ 7078371 drwx------  1000   1000      4096  2-Nov-2023 20:23 procps
+ 5963814 drwxr-xr-x  1000   1000      4096 11-Nov-2023 12:49 .avalonia-build-tasks
+ 7299501 drwx------  1000   1000      4096 22-Nov-2023 10:38 hakuneko-desktop
+
+dir_partition inode=5899380
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /user/.config/nvim
+ 5899380 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 .
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 ..
+ 5996576 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:03 after
+ 6127710 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:11 lua
+ 5899113 -rw-r--r--  1000   1000      1651  4-Dec-2023 11:29 lazy.lua
+ 5899516 -rw-r--r--  1000   1000        57 15-Dec-2023 00:00 init.lua
+ 5904690 -rw-r--r--  1000   1000      4907 15-Dec-2023 00:04 lazy-lock.json
+ 6062183 drwxr-xr-x  1000   1000      4096 15-Nov-2023 14:12 spell
+ 5955680 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:01 plugins
+ 5900090 -rw-r--r--     0      0         0 15-Dec-2023 00:19 testdisk.log
+
+dir_partition inode=6127710
+ 3 P Linux                 4046 234 29 30401  80 63  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+Directory /user/.config/nvim/lua
+ 6127710 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:11 .
+ 5899380 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 ..
+ 6048674 -rw-r--r--     0      0      3485 15-Dec-2023 00:13 testdisk.log
+Directory /user/.config/nvim
+ 5899380 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 .
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 ..
+ 5996576 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:03 after
+ 6127710 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:11 lua
+ 5899113 -rw-r--r--  1000   1000      1651  4-Dec-2023 11:29 lazy.lua
+ 5899516 -rw-r--r--  1000   1000        57 15-Dec-2023 00:00 init.lua
+ 5904690 -rw-r--r--  1000   1000      4907 15-Dec-2023 00:04 lazy-lock.json
+ 6062183 drwxr-xr-x  1000   1000      4096 15-Nov-2023 14:12 spell
+ 5955680 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:01 plugins
+ 5900090 -rw-r--r--     0      0         0 15-Dec-2023 00:19 testdisk.log
+Directory /user/.config
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 .
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 ..
+ 5898479 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:26 yay
+ 5899472 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 dunst
+ 5899474 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 fontconfig
+ 5899476 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 gtk-2.0
+ 5899478 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 gtk-3.0
+ 5899480 drwxr-xr-x  1000   1000      4096  9-Nov-2023 11:15 lf
+ 5899158 -rw-------  1000   1000       524 13-Nov-2023 12:27 mimeapps.list
+ 5899486 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 mpd
+ 5899488 drwxr-xr-x  1000   1000      4096  2-Aug-2023 09:40 mpv
+ 5899498 drwxr-xr-x  1000   1000      4096 22-Sep-2022 15:26 ncmpcpp
+ 5899501 drwxr-xr-x  1000   1000      4096 14-Dec-2023 19:54 newsboat
+ 5899380 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 nvim
+ 5899506 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 pinentry
+ 5899508 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 pipewire
+ 5899510 drwx------  1000   1000      4096 15-May-2023 17:21 pulse
+ 5899512 drwxr-xr-x  1000   1000      4096 13-Dec-2023 11:56 shell
+ 5899518 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 sxiv
+ 5899521 -rw-r--r--  1000   1000        25 18-Sep-2022 21:32 user-dirs.dirs
+ 5899522 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 wal
+ 5899527 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 wget
+ 5899529 drwxr-xr-x  1000   1000      4096 14-Dec-2023 19:23 x11
+ 5899533 drwxr-xr-x  1000   1000      4096 18-Sep-2022 21:32 zathura
+ 5899535 drwxr-xr-x  1000   1000      4096 22-Oct-2023 09:41 zsh
+ 6179598 drwxr-xr-x  1000   1000      4096  8-Sep-2023 21:11 spotifyd
+ 5899862 drwxr-xr-x  1000   1000      4096 19-Sep-2022 00:04 neofetch
+ 5899871 drwx------  1000   1000      4096 10-Jul-2023 12:37 htop
+ 5898684 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 mbsync
+ 5899943 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 msmtp
+ 5899945 drwxr-xr-x  1000   1000      4096  2-Jul-2023 05:18 mutt
+ 5899947 -rw-r--r--  1000   1000       260 23-Sep-2022 11:57 notmuch-config
+ 6127723 drwxr-xr-x  1000   1000      4096 19-Nov-2023 15:39 git
+ 5947473 drwxr-xr-x  1000   1000      4096  9-Jun-2023 11:16 vimb
+ 6817064 drwx------  1000   1000      4096 12-Dec-2023 14:04 dconf
+ 6889479 drwxr-xr-x  1000   1000      4096 12-Dec-2023 11:42 emacs
+ 5955661 drwx------  1000   1000      4096 20-Nov-2023 20:00 thorium
+ 5900015 drwx------  1000   1000      4096 15-Jul-2023 00:38 calibre
+ 5900020 drwxr-xr-x  1000   1000      4096 13-Apr-2023 19:51 KindleComicConverter
+ 5906496 -rw-r--r--  1000   1000       629  7-Jul-2023 21:33 QtProject.conf
+ 5900084 drwx------  1000   1000      4096 22-Oct-2022 08:37 calcurse
+ 5900181 drwx------  1000   1000      4096 11-Nov-2022 12:29 cef_user_data
+ 6306600 drwxr-xr-x  1000   1000      4096 14-Nov-2023 10:39 tmux
+ 6163706 drwx------  1000   1000      4096 28-May-2023 18:02 syncthing
+ 5939252 drwx------  1000   1000      4096  1-Jun-2023 00:34 nuclear
+ 6844036 drwxr-xr-x  1000   1000      4096 26-Nov-2023 15:45 spotify-tui
+ 5899841 -rw-r--r--  1000   1000       161 13-May-2023 22:57 archey3.cfg
+ 5947401 drwx------  1000   1000      4096  2-Jun-2023 23:42 torbrowser
+ 5904694 -rw-r--r--  1000   1000        22  6-Jul-2023 19:27 .#lk0x00005600c8818860.T430Laptop.21230
+ 7250355 drwx------  1000   1000      4096 20-Nov-2023 20:04 BraveSoftware
+ 5905336 -rw-------  1000   1000        32  6-Jul-2023 19:27 pubring.kbx
+ 5902542 -rw-------  1000   1000         0 11-Jul-2023 10:02 tmux.lock
+ 5931039 drwxr-x---  1000   1000      4096 25-Aug-2023 09:57 retroarch
+ 6078470 drwxr-xr-x  1000   1000      4096 18-Sep-2023 11:17 youtube-viewer
+ 7184430 drwxr-xr-x  1000   1000      4096 14-Dec-2023 20:09 zellij
+ 6425417 drwx------  1000   1000      4096 23-Oct-2023 20:59 fish
+ 7078371 drwx------  1000   1000      4096  2-Nov-2023 20:23 procps
+ 5963814 drwxr-xr-x  1000   1000      4096 11-Nov-2023 12:49 .avalonia-build-tasks
+ 7299501 drwx------  1000   1000      4096 22-Nov-2023 10:38 hakuneko-desktop
+Directory /user
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 .
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 ..
+ 5898478 drwxr-xr-x  1000   1000      4096 24-Nov-2023 23:47 .config
+ 8495581 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 perl5
+ 5899952 drwx------  1000   1000      4096 27-Sep-2022 20:36 $
+ 8421767 drwx------  1000   1000      4096 16-Nov-2023 16:09 .ssh
+ 8396493 -rw-r--r--  1000   1000     44298 13-Dec-2023 12:05 larbs-dwm.pdf
+ 5799940 drwx------  1000   1000      4096 10-Aug-2023 15:07 .surf
+ 5772652 drwx------  1000   1000      4096  7-Jul-2023 01:08 .dbus
+ 8396823 drwxr-xr-x  1000   1000      4096 22-Sep-2023 21:44 .nuget
+ 8503671 drwxr-xr-x  1000   1000      4096  8-Nov-2023 20:39 Music
+ 8577187 drwxr-xr-x  1000   1000      4096 12-Dec-2023 19:01 Documents
+ 8405371 drwx------  1000   1000      4096 20-Nov-2023 20:04 .pki
+ 8413602 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:26 .rustup
+ 8397297 -rw-r--r--  1000   1000       464 16-Nov-2023 14:59 sshkey
+ 5767174 drwx------  1000   1000      4096 12-Dec-2023 00:03 .cache
+ 5771530 lrwxrwxrwx  1000   1000        20 18-Sep-2022 21:32 .xprofile
+ 8388616 drwxr-xr-x  1000   1000      4096 12-Nov-2023 13:17 .local
+ 8561033 drwxr-xr-x  1000   1000      4096 14-Nov-2023 12:49 dox
+ 6819389 -rw-r--r--  1000   1000 6685433856  2-Dec-2023 19:39 Win11_23H2_EnglishInternational_x64.iso
+ 8401246 -rw-r--r--  1000   1000      7000  6-Dec-2023 01:08 thinkfan.yaml
+ 8405383 drwxr-xr-x  1000   1000     28672 14-Dec-2023 18:46 Videos
+ 8405438 drwxr-xr-x  1000   1000      4096 25-Sep-2023 16:00 .java
+ 8388610 drwxr-xr-x  1000   1000      4096 15-Dec-2023 00:19 .librewolf
+ 5774631 drwxr-xr-x  1000   1000      4096 29-Jul-2023 20:30 .npm
+ 8405387 drwx------  1000   1000      4096 11-Nov-2023 14:33 Mail
+ 8413661 drwxr-xr-x  1000   1000      4096 14-Dec-2023 22:40 .cpan
+ 8405074 drwxr-xr-x  1000   1000      4096  8-Dec-2023 11:59 Pictures
+ 5771531 lrwxrwxrwx  1000   1000        21 18-Sep-2022 21:32 .zprofile
+ 8396817 drwxr-xr-x  1000   1000      4096 11-Nov-2023 12:45 .dotnet
+ 8577186 drwxr-xr-x  1000   1000      4096 11-Dec-2023 23:03 Downloads
+ 8400251 -rw-------  1000   1000        55  4-Dec-2023 09:27 .Xauthority
+ 8421800 drwx------  1000   1000      4096 21-Nov-2023 18:49 .abook
+ 5899954 drwxr-xr-x  1000   1000     12288  3-Dec-2023 10:22 Books
+ 8400026 -rw-r--r--  1000   1000        97 16-Nov-2023 14:59 sshkey.pub
+ 6819385 -rw-r--r--  1000   1000   4179016  2-Dec-2023 18:39 Windows11InstallationAssistant.exe
+ 8401267 -rw-r--r--  1000   1000         0  1-Dec-2023 16:19 file.org
+ 8479138 drwxr-xr-x  1000   1000      4096 11-Dec-2023 17:02 nsh
+Directory /
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 .
+       2 drwxr-xr-x  1000     96      4096 25-Sep-2023 14:04 ..
+      11 drwx------     0      0     16384 16-Sep-2022 15:47 lost+found
+ 8388609 drwx------  1000   1000    364544 14-Dec-2023 23:38 user
+  524289 drwxr-xr-x  1000   1000      4096 25-Sep-2023 14:04 user.cashe
+
+TestDisk exited normally.

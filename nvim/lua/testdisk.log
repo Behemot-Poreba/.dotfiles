@@ -1,0 +1,81 @@
+
+
+Fri Dec 15 00:11:51 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.6.4-artix1-1 (#1 SMP PREEMPT_DYNAMIC Mon, 04 Dec 2023 21:43:36 +0000) x86_64
+Compiler: GCC 12.2
+ext2fs lib: 1.47.0, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.4
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       488397168 sectors
+/dev/sda: user_max   488397168 sectors
+/dev/sda: native_max 488397168 sectors
+/dev/sda: dco        488397168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 250 GB / 232 GiB - CHS 30401 255 63, sector size=512 - Samsung SSD 850 EVO 250GB, S/N:S2R6NX2J940232D, FW:EMT02B6Q
+
+Partition table type (auto): Intel
+Disk /dev/sda - 250 GB / 232 GiB - Samsung SSD 850 EVO 250GB
+Partition table type: EFI GPT
+
+Interface Advanced
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+Analyse Disk /dev/sda - 250 GB / 232 GiB - CHS 30401 255 63
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+Current partition structure:
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+search_part()
+Disk /dev/sda - 250 GB / 232 GiB - CHS 30401 255 63
+
+recover_EXT2: s_block_group_nr=0/8, s_mnt_count=414/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 262144
+recover_EXT2: part_size 2097152
+Filesystem created: Fri Sep 16 15:47:14 2022
+Last mount time:    Wed Dec 13 21:18:44 2023
+     Linux filesys. data         2048    2099199    2097152
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1073 MB / 1024 MiB
+
+recover_EXT2: s_block_group_nr=0/240, s_mnt_count=827/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 7864320
+recover_EXT2: part_size 62914560
+Filesystem created: Fri Sep 16 15:47:29 2022
+Last mount time:    Wed Dec 13 21:18:44 2023
+     Linux filesys. data      2099200   65013759   62914560
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 32 GB / 30 GiB
+
+recover_EXT2: s_block_group_nr=0/1615, s_mnt_count=414/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 52922926
+recover_EXT2: part_size 423383408
+Filesystem created: Fri Sep 16 15:47:49 2022
+Last mount time:    Wed Dec 13 21:18:44 2023
+     Linux filesys. data     65013760  488397167  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+
+Results
+   P Linux filesys. data         2048    2099199    2097152
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1073 MB / 1024 MiB
+   P Linux filesys. data      2099200   65013759   62914560
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 32 GB / 30 GiB
+   P Linux filesys. data     65013760  488397167  423383408
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 216 GB / 201 GiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 2097152 linear /dev/sda 2048" | dmsetup create test0
+echo "0 62914560 linear /dev/sda 2099200" | dmsetup create test1
+echo "0 423383408 linear /dev/sda 65013760" | dmsetup create test2
+SIGHUP detected! TestDisk has been killed.
